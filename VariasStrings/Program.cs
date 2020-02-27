@@ -15,6 +15,9 @@ namespace VariasStrings
             string string_7 = $@"let's try {string_3}";
             string string_8 = String.Format("While do {0}", string_1);
             string string_9 = String.Format("The ultimate string is {1} and {0}", string_8, string_7);
+            double testing_1 = 0.12345;
+            int testing_2 = 18;
+
             Console.WriteLine(string_1);
             Console.WriteLine(string_2);
             Console.WriteLine(string_3);
@@ -25,6 +28,10 @@ namespace VariasStrings
             Console.WriteLine(string_8);
             Console.WriteLine(string_9);
             Console.WriteLine(@"olgnrso is god if {0}", string_9);
+            Console.WriteLine($"number_1 = {testing_1:f2}");
+            Console.WriteLine($"stats_1 = {testing_1:p1}");
+            Console.WriteLine("number_2 = {0:x}", testing_2);
+            Console.WriteLine("number_3 = {0:c}", testing_2);
         }
     }
 }
